@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Adina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- WEBSITE 1 START -->
+    <!-- Page 1: Countdown -->
+    <div id="page1" class="container">
+        <h1>Counting down to <span>Adina's</span> special day🎂</h1>
+        <p class="subtitle">You mean more to me than words can ever explain❤️</p>
+
+        <div class="countdown-wrapper">
+            <div class="box"><span class="number" id="days">00</span><span class="label">Days</span></div>
+            <div class="box"><span class="number" id="hours">00</span><span class="label">Hours</span></div>
+            <div class="box"><span class="number" id="mins">00</span><span class="label">Minutes</span></div>
+            <div class="box"><span class="number" id="secs">00</span><span class="label">Seconds</span></div>
+        </div>
+
+        <p class="celebration-text">✨ A special celebration awaits you at midnight... ✨</p>
+        <p class="sub-msg">Something magical is about to unfold🌟</p>
+        <button id="celebrateBtn" class="btn" disabled>Let's celebrate 🎉</button>
+    </div>
+
+    <!-- Page 2: Birthday Wish -->
+    <div id="page2" class="container" style="display: none;">
+        <h1>Happy Birthday <span>Adina</span>🎂</h1>
+        <p class="subtitle">You mean more to me than words can ever explain❤️</p>
+        
+        <div class="birthday-wish-box">
+            <h2 class="gradient-text animate-pop">🎉It's Your Birthday!🎉</h2>
+        </div>
+
+        <p class="celebration-text">💜 Ready for your surprise! 💜</p>
+        <p class="sub-msg">Something magical is about to unfold🌟</p>
+        <button id="finalSurpriseBtn" class="btn">Next Surprise 🎁</button>
+        
+        <div id="decor-container"></div>
+    </div>
+
+    <!-- Page 3: Interactive Card -->
+    <div id="page3" class="container" style="display: none;">
+        <div class="card">
+            <div class="star-icon">✨</div>
+            
+            <div id="content-slider" class="slide-in">
+                <h2 id="main-text">It's Your Special Day Yeyey!</h2>
+                <div id="btn-group">
+                    <button id="nextBtn" class="btn active">Next</button>
+                </div>
+            </div>
+
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 4: Virtual Party -->
+    <div id="page4" class="container" style="display: none;">
+        <h1>Virtual Birthday Party <span>🎊</span></h1>
+        <p class="subtitle">Let's set up your perfect celebration!</p>
+        
+        <div class="party-controls">
+            <div class="control-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Turn on the Lights</h3>
+                <button class="control-btn" id="lightsBtn">Switch On</button>
+            </div>
+            
+            <div class="control-card">
+                <i class="fas fa-gift"></i>
+                <h3>Decorate the Room</h3>
+                <button class="control-btn" id="decorateBtn">Start Decorating</button>
+            </div>
+            
+            <div class="control-card">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>Bring the Cake</h3>
+                <button class="control-btn" id="cakeBtn">Serve Cake</button>
+            </div>
+            
+            <div class="control-card">
+                <i class="fas fa-music"></i>
+                <h3>Play Music</h3>
+                <button class="control-btn" id="musicBtn">Start Music</button>
+            </div>
+        </div>
+        
+        <div class="message-box" id="thankYouMessage" style="display: none;">
+            <h2>Thank You Message 💖</h2>
+            <p>Happy Birthday Adina! You're an amazing person who brings so much joy to everyone around you. I hope your special day is filled with love, laughter, and wonderful memories. Thank you for being you! 🎂🎉</p>
+            <button class="btn" id="restartBtn">Start Over</button>
+        </div>
+        
+        <div class="party-effects">
+            <div id="lights-effect"></div>
+            <div id="decorations"></div>
+            <div id="cake-display"></div>
+            <div id="music-player"></div>
+        </div>
+        
+        <button class="btn" id="showMessageBtn" style="margin-top: 30px;">Show Thank You Message 💌</button>
+    </div>
+<!-- WEBSITE 1 END -->
+
+<!-- WEBSITE 2 START -->
+<div id="website2-container" style="display: none;">
+    <div id="lights-layer" class="hidden-layer">
+        <img src="lightssss.png" class="top-lights-img">
+    </div>
+
+    <div class="main-container">
+        <h1 id="main-title">Hapoy Birthdayyy! 🎉</h1>
+        
+        <div class="ui-wrapper">
+            <button id="l-btn" class="pill yellow" onclick="triggerEffect('lights')">💡 Turn On Lights</button>
+            <button id="d-btn" class="pill pink hide" onclick="triggerEffect('decor')">✨ Add Decor</button>
+            <button id="m-btn" class="pill blue hide" onclick="triggerEffect('music')">🎵 Play Music</button>
+            <button id="c-btn" class="pill purple hide" onclick="triggerEffect('cake')">🎂 Get Cake</button>
+        </div>
+
+        <div id="party-content" class="hide">
+            <div class="pixel-box">
+                <div class="cake-area">
+                    <img src="pixelcake1.png" class="cake-img">
+                    <div id="candle-flame" class="flame-effect"></div>
+                </div>
+                
+                <div class="cards-side">
+                    <button class="small-card" onclick="openFullMsg('thanks')">Thank You 💗</button>
+                    <button class="small-card" onclick="openFullMsg('msg')">A Message 💌</button>
+                    <button class="small-card" onclick="openFullMsg('bye')">Good Bye 👋</button>
+                </div>
+            </div>
+            <button id="blow-action" class="pill pink" onclick="blowOutCandle()">Blow Candle 🌬️</button>
+        </div>
+    </div>
+
+    <div id="full-overlay" class="overlay hide">
+        <div class="modal-view">
+            <h2 id="modal-head"></h2>
+            <div class="text-scroll">
+                <p id="modal-content"></p>
+            </div>
+            <button class="pill yellow" onclick="closeFullMsg()">Close ⬅</button>
+        </div>
+    </div>
+
+    <audio id="music-track" loop src="untilifoundyou.m4a"></audio>
+</div>
+<!-- WEBSITE 2 END -->
+
+    <script src="script.js"></script>
+</body>
+</html>
