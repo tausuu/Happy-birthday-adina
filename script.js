@@ -132,17 +132,17 @@ function showQuestion() {
             <button class="btn active" onclick="showFinal()">Yes</button>
             <button class="btn active btn-no" onclick="handleNo()">No</button>
         </div>`;
-    updateContent("Do you wanna see what I made??", buttons, 1);
+    updateContent("Dekhna chahre me kya bnaya??", buttons, 1);
 }
 
 function handleNo() {
-    const buttons = `<button class="btn active" onclick="showFinal()">Dekhlo na😭</button>`;
+    const buttons = `<button class="btn active" onclick="showFinal()">please😭🙏🏻</button>`;
     updateContent("Bohot mehnat se bnaya jii😭", buttons, 1);
 }
 
 function showFinal() {
     const buttons = `<button class="btn active" id="letsGoBtn">Let's Go!🎉</button>`;
-    updateContent("Here's a look at it, Madam Jiii", buttons, 2);
+    updateContent("Excited??", buttons, 2);
 }
 
 // ALAG FUNCTION BANAYA LETS GO BUTTON KE LIYE
@@ -233,6 +233,7 @@ aur yeap! ye mere kuch last messeges the abhi milenge inshaallah kabhi aur kahi 
 Life ke is trun per, mai sirf shukriya ich bolna chahtu.
 Shukriya us kal ke liye jab ham sath the nibhare the sab bolre the long distance nhi chalta fir bhi nibhare the to shukriya..!! Aur also shukriya vo lesson ka jo meko mila. Maine hamesha itne door reh kr jo ho skta tha jaise ho skta poori koshish krke tumku vo sab dene ki koshish ki jo aik pyari si princess deserve krti thi.. Be-inteha khayal, izzat, aur ankh band krke bhrosa.
 Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. Kuch log life me aik baar ich milte hai aur unka sath hona ich apne aap me aik iman rhtaa.  shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha. (Ammm btw i'm not in a relationship aur ana bhi chahta)
+‎'if you ever miss me, Just remember i'm as far away as you pushed me✨'
 God bye Adina khush raho kyuki me hamesha se yahi chahta tha. Alvida.`
 };
 
