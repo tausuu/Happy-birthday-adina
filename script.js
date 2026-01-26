@@ -287,20 +287,23 @@ Tumhare baad, ab main apni future beti ko princess treatment dene ke layak hoon.
 Thank you, adina.`,
     
     msg: `Happy Birthday Adina!!!!
-Happy birthday to my fav human being on the earth!!
-Meko bohot khushi ho rhi hai ki aaj tum poore 17 ke ho gyiii.. Mtlb ke poore 149,016 ghante ki so congratesss🎉
-Ar ye ghnato ke 3 hisse kro to in ghanto ke start me tum bohot cute harkate kri jaise ki tumahra bachpan vo nani ke ghr pe cousins ke masti krna🥹. Ghr ku water park banna hai. Apne bade se ghr me khudka chota sa ghar banna and bohot kuch pyare pyare harkate.. Fir uske doosre hisse me tumne schoollll me bohot mastiyaa kre freinds ke sath jaise ki padhai na krke sare makka krna techer ku dam krna aur lunch time me bas ghoomna cute cute cheeza recreate krnaa...!!! fir third hisse me tum ne aik ladke ku bohot pyar diye meko bohot pyar diye aur ye pyaar ke wjah se me itta attach ho gya tha meri nazar me tum meri ex nhi ho meri enemy bhi nhi ho mera past bhi nhi ho tum vo ho jisku aik time per maine meri princess bnaya tha aik tum ich hai vo jisku mai mere heart ke aik aik single part se pyaar kra tha aur you are the best memory of my life you taught me what love feels like..
-You were the reason I cried, the reason I smiled, the reason I believed in love.
-Maybe you're no longer mine, but somewhere in the quiet corners of my heart,
-you'll always remain my greatest love story.. My fav story!!
-I loved you as much as i capable me dooor se itta pyar krta tha pass se to andaza ich nhi lga pate the but pass ane waise mahol ich nhi hua. Addu hamesha yaad rakho tumaku kabhi bhi meri help ki need hungi to meko jroor bolo me full help krtu!! Aur ha ab tumhari life ke jitne bhi ghante hai tum unku sukoon se khudki marzi se aur poore enjoyment ke sath guzaroooo i wish that ki vo ladka tumko mere se bhi jyada smjhe mere se jyada pyar kre mere se jyada care kre tumko princess bna kr rakhe🫶🏻agr unneh nhi kra to usko bolna ki mai kaisa tha fir unneh jroor krta!! Usko bolna ki editing seekh le kyuki mohtarma ku bohot alas ata editing krne me. Aur ha thoda khyal rakho khudka kam se kam cheeze expect kro kyuki aap jitna jyada expect kroge utna ich hurt hoge. Aur ha us ladke ke intensens per bhi ghaur krna me chahta hu tum safe hathon me raho. 
-aur yeap! ye mere kuch last messeges the abhi milenge inshaallah kabhi aur kahi aur kisi aur rishte se🫶🏻`,
+‎    Happy birthday to my fav human being on the earth!!
+‎Meko bohot khushi ho rhi hai ki aaj tum poore 17 ke ho gyiii.. Mtlb ke poore 149,016 ghante ki so congratesss🎉
+‎Ar ye ghnato ke 3 hisse kro to in ghanto ke start me tum bohot cute harkate kri jaise ki tumahra bachpan vo nani ke ghr pe cousins ke masti krna🥹. Ghr ku water park banna hai. Apne bade se ghr me khudka chota sa ghar banna and bohot kuch pyare pyare harkate.. Fir uske doosre hisse me tumne schoollll me bohot mastiyaa kre freinds ke sath jaise ki padhai na krke sare makka krna techer ku dam krna aur lunch time me bas ghoomna cute cute cheeza recreate krnaa...!!! fir third hisse me tum ne aik ladke ku bohot pyar diye meko bohot pyar diye aur ye pyaar ke wjah se me itta attach ho gya tha meri nazar me tum meri ex nhi ho meri enemy bhi nhi ho mera past bhi nhi ho tum vo ho jisku aik time per maine meri princess bnaya tha aik tum ich hai vo jisku mai mere heart ke aik aik single part se pyaar kra tha aur you are the best memory of my life you taught me what love feels like..
+‎You were the reason I cried, the reason I smiled, the reason I believed in love.
+‎Maybe you’re no longer mine, but somewhere in the quiet corners of my heart,
+‎you’ll always remain my greatest love story.. My fav story!!
+‎I loved you as much as i capable me dooor se itta pyar krta tha pass se to andaza ich nhi lga pate the but pass ane waise mahol ich nhi hua. Addu hamesha yaad rakho tumaku kabhi bhi meri help ki need hungi to meko jroor bolo me full help krtu!! Aur ha ab tumhari life ke jitne bhi ghante hai tum unku sukoon se khudki marzi se aur poore enjoyment ke sath guzaroooo i wish that ki vo ladka tumko mere se bhi jyada smjhe mere se jyada pyar kre mere se jyada care kre tumko princess bna kr rakhe🫶🏻agr unneh nhi kra to usko bolna ki mai kaisa tha fir unneh jroor krta!! Usko bolna ki editing seekh le kyuki mohtarma ku bohot alas ata editing krne me. Aur ha thoda khyal rakho khudka kam se kam cheeze expect kro kyuki aap jitna jyada expect kroge utna ich hurt hoge. Aur ha us ladke ke intensens per bhi ghaur krna me chahta hu tum safe hathon me raho. i know tum abhi bhi baat krri hungi ussey aur ye bohot achi baat hai ki itna sab huye baad bhi tum usko chorre nhibaise hi kabhi nakko choro🫂
+‎Meko chore shyd deserve krta tha usko nakko ab bas ab jyada explore mat kro aur khyal rakho khudka be safe ro mat kabhi bhi royi to kisi ko nhi chorunga..
+‎aur yeap! ye mere kuch last messeges the abhi milenge inshaallah kabhi aur kahi aur kisi aur rishte se🫶🏻`,
     
     bye: `Bye bye Adina....
-Life ke is trun per, mai sirf shukriya ich bolna chahtu.
-Shukriya us kal ke liye jab ham sath the nibhare the sab bolre the long distance nhi chalta fir bhi nibhare the to shukriya..!! Aur also shukriya vo lesson ka jo meko mila. Maine hamesha itne door reh kr jo ho skta tha jaise ho skta poori koshish krke tumku vo sab dene ki koshish ki jo aik pyari si princess deserve krti thi.. Be-inteha khayal, izzat, aur ankh band krke bhrosa.
-Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. Kuch log life me aik baar ich milte hai aur unka sath hona ich apne aap me aik iman rhtaa.  shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha. 
-God bye Adina khush raho kyuki me hamesha se yahi chahta tha. Alvida.`
+‎Life ke is turn per, mai sirf shukriya ich bolna chahtu.
+‎Shukriya us kal ke liye jab ham sath the nibhare the sab bolre the long distance nhi chalta fir bhi nibhare the to shukriya..!! Aur also shukriya vo lesson ka jo meko mila. Maine hamesha itne door reh kr jo ho skta tha jaise ho skta poori koshish krke tumku vo sab dene ki koshish ki jo aik pyari si princess deserve krti thi.. Be-inteha khayal, izzat, aur ankh band krke bhrosa. Tumne always ka promise kiya tha but ab to promises ki value nhi rahi.
+‎Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. Loyalty us very expencive kuch log life me aik baar hi milte hai aur unka sath hona ich apne aap me aik inam rhtaa.  shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha.
+‎A last messege to you...
+‎'If you ever miss me, Just remember i'm as far away as you pushed me✨'
+‎God bye Adina khush raho kyuki me hamesha se yahi chahta tha. Alvida.`
 };
 
 // Message cards functionality
