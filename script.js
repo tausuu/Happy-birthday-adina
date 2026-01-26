@@ -12,12 +12,18 @@ const finalSurpriseBtn = document.getElementById('finalSurpriseBtn');
 const nextBtn = document.getElementById('nextBtn');
 const decorContainer = document.getElementById('decor-container');
 
+// Box elements for hiding when 00
+const daysBox = document.getElementById('days-box');
+const hoursBox = document.getElementById('hours-box');
+const minsBox = document.getElementById('mins-box');
+const secsBox = document.getElementById('secs-box');
+
 // ======================================================
 // 🎯 EASY DATE CHANGE - YAHAN SE DATE BADLO!
 // Format: "Month Day, Year Hour:Minute:Second"
 // Example: "Feb 2, 2026 00:00:00" (2 February 2026 midnight)
 // ======================================================
-const targetDate = new Date("Feb 2, 2026 00:00:00").getTime();
+const targetDate = new Date("Jan 2, 2026 00:00:00").getTime();
 // ======================================================
 
 // Countdown Timer - EASY TO CHANGE!
@@ -35,6 +41,20 @@ const timer = setInterval(function() {
     document.getElementById("mins").innerText = m < 10 ? "0"+m : m;
     document.getElementById("secs").innerText = s < 10 ? "0"+s : s;
 
+    // Feature 1: Hide boxes when they reach 00
+    if (d === 0 && !daysBox.classList.contains('hidden')) {
+        daysBox.classList.add('hidden');
+    }
+    if (h === 0 && !hoursBox.classList.contains('hidden')) {
+        hoursBox.classList.add('hidden');
+    }
+    if (m === 0 && !minsBox.classList.contains('hidden')) {
+        minsBox.classList.add('hidden');
+    }
+    if (s === 0 && !secsBox.classList.contains('hidden')) {
+        secsBox.classList.add('hidden');
+    }
+
     if (distance < 0) {
         clearInterval(timer);
         document.getElementById("days").innerText = "00";
@@ -42,11 +62,24 @@ const timer = setInterval(function() {
         document.getElementById("mins").innerText = "00";
         document.getElementById("secs").innerText = "00";
         
+        // Hide all boxes when countdown completes
+        daysBox.classList.add('hidden');
+        hoursBox.classList.add('hidden');
+        minsBox.classList.add('hidden');
+        secsBox.classList.add('hidden');
+        
         // Button ko enable karo
         celebrateBtn.classList.add("active");
         celebrateBtn.disabled = false;
         celebrateBtn.style.opacity = "1";
         celebrateBtn.style.pointerEvents = "auto";
+        
+        // Feature 2: Automatically go to Page 2 after 2 seconds
+        setTimeout(function() {
+            if (pages.page1.style.display !== "none") {
+                celebrateBtn.click(); // Simulate click on celebrate button
+            }
+        }, 2000);
     }
 }, 1000);
 
@@ -67,6 +100,7 @@ finalSurpriseBtn.addEventListener('click', function() {
     pages.page3.style.alignItems = "center";
     pages.page3.style.justifyContent = "center";
     pages.page3.style.minHeight = "100vh";
+    showQuestion();
 });
 
 // Floating decorations
@@ -121,28 +155,61 @@ function updateContent(text, buttonsHTML, dotIndex) {
     }, 300);
 }
 
-// Initialize first step
-if (nextBtn) {
-    nextBtn.addEventListener('click', showQuestion);
-}
-
+// Card section steps with proper word choice
 function showQuestion() {
     const buttons = `
-        <div class="btn-group-row">
-            <button class="btn active" onclick="showFinal()">Yes</button>
-            <button class="btn active btn-no" onclick="handleNo()">No</button>
+        <div class="side-by-side">
+            <button class="btn btn-yes" onclick="showConfirm1()">Yes</button>
+            <button class="btn btn-no" onclick="showFirstNo()">No</button>
         </div>`;
-    updateContent("Dekhna chahre me kya bnaya??", buttons, 1);
+    updateContent("Kya tum dekhna chahti ho??", buttons, 0);
 }
 
-function handleNo() {
-    const buttons = `<button class="btn active" onclick="showFinal()">please😭🙏🏻</button>`;
-    updateContent("Bohot mehnat se bnaya jii😭", buttons, 1);
+function showConfirm1() {
+    const buttons = `
+        <div class="side-by-side">
+            <button class="btn btn-yes" onclick="showConfirm2()">Haan dekhna hai</button>
+            <button class="btn btn-no" onclick="showFirstNo()">Nahi</button>
+        </div>`;
+    updateContent("Pakka na??", buttons, 1);
 }
 
-function showFinal() {
-    const buttons = `<button class="btn active" id="letsGoBtn">Let's Go!🎉</button>`;
-    updateContent("Excited??", buttons, 2);
+function showConfirm2() {
+    const buttons = `
+        <div class="side-by-side">
+            <button class="btn btn-yes" onclick="showFinalQuestion()">Pakka dekhna hai</button>
+            <button class="btn btn-no" onclick="showSecondNo()">Ek baar soch lo</button>
+        </div>`;
+    updateContent("Ek baar aur soch lo...", buttons, 2);
+}
+
+function showFinalQuestion() {
+    const buttons = `
+        <div class="side-by-side">
+            <button class="btn btn-yes" onclick="showReady()">Haan dekh lo</button>
+            <button class="btn btn-no" onclick="showThirdNo()">Nahi</button>
+        </div>`;
+    updateContent("Soch lo😚", buttons, 3);
+}
+
+function showReady() {
+    const buttons = `<button class="btn active" id="letsGoBtn">Let's Go! 🎉</button>`;
+    updateContent("Achaaaaa dekho ab😊", buttons, 4);
+}
+
+function showFirstNo() {
+    const buttons = `<button class="btn active" onclick="showQuestion()">Dekh lo na😭</button>`;
+    updateContent("Bohot mehnat se banaya hai😭", buttons, 0);
+}
+
+function showSecondNo() {
+    const buttons = `<button class="btn active" onclick="showFinalQuestion()">Acha is baar dikha deta hoon</button>`;
+    updateContent("Areyy yaarr😣", buttons, 3);
+}
+
+function showThirdNo() {
+    const buttons = `<button class="btn active" onclick="showReady()">Achaaaaa dekho</button>`;
+    updateContent("Last chance hai😄", buttons, 4);
 }
 
 // ALAG FUNCTION BANAYA LETS GO BUTTON KE LIYE
@@ -170,7 +237,7 @@ function transitionToWebsite2() {
     pages.page3.style.display = "none";
     pages.page4.style.display = "none";
     
-    // Show Website 2
+    // Show Website 2 with black screen
     const website2Container = document.getElementById('website2-container');
     website2Container.style.display = 'flex';
     website2Container.style.flexDirection = 'column';
@@ -183,9 +250,9 @@ function transitionToWebsite2() {
     website2Container.style.left = '0';
     website2Container.style.zIndex = '1000';
     
-    // Apply black background initially
+    // Show black screen initially
+    document.getElementById('black-screen').style.display = 'block';
     website2Container.classList.add('black-bg');
-    website2Container.classList.remove('party-bg');
     
     // Reset body styling
     document.body.style.padding = '0';
@@ -216,43 +283,98 @@ Thank you mujhe ye sikhane ke liye ki khud ke haq mein bolna bado ki be-adabi na
 Thank you mujhe samjhane ke liye ki ladkon ko color differences samajh nahi aate.
 Thank you mujhe life ka ek goal dene ke liye.
 Tumhare baad, ab main apni future beti ko princess treatment dene ke layak hoon. Practice ho chuki hai.
-Thank you, Adina..`,
+
+Thank you, adina.`,
     
     msg: `Happy Birthday Adina!!!!
 Happy birthday to my fav human being on the earth!!
 Meko bohot khushi ho rhi hai ki aaj tum poore 17 ke ho gyiii.. Mtlb ke poore 149,016 ghante ki so congratesss🎉
-Ar ye ghnato ke 3 hisse kro to in ghanto ke start me tum bohot cute harkate kri jaise ki tumahra bachpan vo nani ke ghr pe cousins ke masti krna🥹. Ghr ku water park banna hai. Apne bade se ghr me khudka chota sa ghar banna and bohot kuch pyare pyare harkate.. Fir uske doosre hisse me tumne schoollll me bohot mastiyaa kre freinds ke sath jaise ki padhai na krke sare makka krna techer ku dam krna aur lunch time me bas ghoomna cute cute cheeza recreate krnaa...!!! fir third hisse me tum ne aik ladke ku bohot pyar diye meko bohot pyar diye aur ye pyaar ke wjah se me itta attach ho gya. Adiba tum bohot achii ladki ho yaro loyalty bhi lalo aap ander kasam se tumse rare ladki nhi milti fir duniya me you are the the bestt. meri nazar me tum meri ex nhi ho meri enemy bhi nhi ho mera past bhi nhi ho tum vo ho jisku aik time per maine meri princess bnaya tha aik tum ich hai vo jisku mai mere heart ke aik aik single part se pyaar kra tha aur you are the best memory of my life you taught me what love feels like..
+Ar ye ghnato ke 3 hisse kro to in ghanto ke start me tum bohot cute harkate kri jaise ki tumahra bachpan vo nani ke ghr pe cousins ke masti krna🥹. Ghr ku water park banna hai. Apne bade se ghr me khudka chota sa ghar banna and bohot kuch pyare pyare harkate.. Fir uske doosre hisse me tumne schoollll me bohot mastiyaa kre freinds ke sath jaise ki padhai na krke sare makka krna techer ku dam krna aur lunch time me bas ghoomna cute cute cheeza recreate krnaa...!!! fir third hisse me tum ne aik ladke ku bohot pyar diye meko bohot pyar diye aur ye pyaar ke wjah se me itta attach ho gya tha meri nazar me tum meri ex nhi ho meri enemy bhi nhi ho mera past bhi nhi ho tum vo ho jisku aik time per maine meri princess bnaya tha aik tum ich hai vo jisku mai mere heart ke aik aik single part se pyaar kra tha aur you are the best memory of my life you taught me what love feels like..
 You were the reason I cried, the reason I smiled, the reason I believed in love.
 Maybe you're no longer mine, but somewhere in the quiet corners of my heart,
 you'll always remain my greatest love story.. My fav story!!
-I loved you as much as i capable me dooor se itta pyar krta tha pass se to andaza ich nhi lga pate the but pass ane waise mahol ich nhi hua. Addu hamesha yaad rakho tumaku kabhi bhi meri help ki need hungi to meko jroor bolo me full help krtu! Aur ha ab tumhari life ke jitne bhi ghante hai tum unku sukoon se khudki marzi se aur poore enjoyment ke sath guzaroooo i wish that ki vo ladka tumko mere se bhi jyada smjhe mere se jyada pyar kre mere se jyada care kre tumko princess bna kr rakhe🫶🏻agr unneh nhi kra to usko bolna ki mai kaisa tha fir unneh jroor krta!! Usko bolna ki editing seekh le kyuki mohtarma ku bohot alas ata editing krne me. Aur ha thoda khyal rakho khudka kam se kam cheeze expect kro kyuki aap jitna jyada expect kroge utna ich hurt hoge. Aur ha us ladke ke intensens per bhi ghaur krna me chahta hu tum safe hathon me raho. 
-Aur ha i'm sorry adina tumne vo card me likh the ki meai tumahri aik chalti firti dairy hu i'm sorry me khudka glt istemaal krra tha i'm really sorry me us dairy ku delete kr dena chahta hu ab kabhi uska use nhu krne wala mai i'm really sorry, aur yeap! ye mere kuch last messeges the abhi milenge inshaallah kabhi aur kahi aur kisi aur rishte se🫶🏻`,
+I loved you as much as i capable me dooor se itta pyar krta tha pass se to andaza ich nhi lga pate the but pass ane waise mahol ich nhi hua. Addu hamesha yaad rakho tumaku kabhi bhi meri help ki need hungi to meko jroor bolo me full help krtu!! Aur ha ab tumhari life ke jitne bhi ghante hai tum unku sukoon se khudki marzi se aur poore enjoyment ke sath guzaroooo i wish that ki vo ladka tumko mere se bhi jyada smjhe mere se jyada pyar kre mere se jyada care kre tumko princess bna kr rakhe🫶🏻agr unneh nhi kra to usko bolna ki mai kaisa tha fir unneh jroor krta!! Usko bolna ki editing seekh le kyuki mohtarma ku bohot alas ata editing krne me. Aur ha thoda khyal rakho khudka kam se kam cheeze expect kro kyuki aap jitna jyada expect kroge utna ich hurt hoge. Aur ha us ladke ke intensens per bhi ghaur krna me chahta hu tum safe hathon me raho. 
+aur yeap! ye mere kuch last messeges the abhi milenge inshaallah kabhi aur kahi aur kisi aur rishte se🫶🏻`,
     
     bye: `Bye bye Adina....
 Life ke is trun per, mai sirf shukriya ich bolna chahtu.
 Shukriya us kal ke liye jab ham sath the nibhare the sab bolre the long distance nhi chalta fir bhi nibhare the to shukriya..!! Aur also shukriya vo lesson ka jo meko mila. Maine hamesha itne door reh kr jo ho skta tha jaise ho skta poori koshish krke tumku vo sab dene ki koshish ki jo aik pyari si princess deserve krti thi.. Be-inteha khayal, izzat, aur ankh band krke bhrosa.
-Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. Kuch log life me aik baar ich milte hai aur unka sath hona ich apne aap me aik inamn rhtaa. shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha. (Ammm btw i'm not in a relationship! aur ana bhi nhi chahta)
-And a last messege to you...
-‎'if you ever miss me, Just remember i'm as far away as you pushed me'
-God bye Adina khush raho kyuki me hamesha se yahi chahta tha. Alvida✨.`
+Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. Kuch log life me aik baar ich milte hai aur unka sath hona ich apne aap me aik iman rhtaa.  shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha. 
+God bye Adina khush raho kyuki me hamesha se yahi chahta tha. Alvida.`
 };
+
+// Message cards functionality
+let currentCard = 0;
+const totalCards = 3;
 
 function triggerEffect(val) {
     console.log("Triggered:", val);
 
     if (val === 'lights') {
+        // Remove black screen
+        document.getElementById('black-screen').style.opacity = '0';
+        setTimeout(() => {
+            document.getElementById('black-screen').style.display = 'none';
+        }, 1000);
+        
         document.getElementById('website2-container').classList.replace('black-bg', 'party-bg');
         document.getElementById('lights-layer').classList.add('show-layer');
-        updateUI('l-btn', 'd-btn');
-    } else if (val === 'decor') {
-        updateUI('d-btn', 'm-btn');
+        updateUI('l-btn', 'm-btn');
     } else if (val === 'music') {
         document.getElementById('music-track').play();
         updateUI('m-btn', 'c-btn');
     } else if (val === 'cake') {
-        document.getElementById('party-content').classList.remove('hide');
-        document.getElementById('c-btn').classList.add('hide');
+        // This won't be called directly now
     }
+}
+
+function showCakeHint() {
+    document.getElementById('party-content').classList.remove('hide');
+    document.getElementById('c-btn').classList.add('hide');
+    document.getElementById('cake-hint').classList.remove('hide');
+}
+
+function openMessageCards() {
+    // Load text into cards
+    document.getElementById('card1-text').innerText = myTexts.thanks;
+    document.getElementById('card2-text').innerText = myTexts.msg;
+    document.getElementById('card3-text').innerText = myTexts.bye;
+    
+    // Show cards overlay
+    document.getElementById('cards-overlay').classList.remove('hide');
+    currentCard = 0;
+    updateCardDisplay();
+}
+
+function updateCardDisplay() {
+    // Hide all cards
+    document.querySelectorAll('.message-card').forEach(card => {
+        card.classList.remove('active', 'previous');
+    });
+    
+    // Show current card
+    document.getElementById(`card${currentCard + 1}`).classList.add('active');
+    
+    // Update title
+    document.getElementById('card-title').innerText = `Message ${currentCard + 1}/${totalCards}`;
+}
+
+function nextCard() {
+    if (currentCard < totalCards - 1) {
+        currentCard++;
+        updateCardDisplay();
+    }
+}
+
+function prevCard() {
+    if (currentCard > 0) {
+        currentCard--;
+        updateCardDisplay();
+    }
+}
+
+function closeCards() {
+    document.getElementById('cards-overlay').classList.add('hide');
 }
 
 function updateUI(oldId, newId) {
@@ -268,20 +390,10 @@ function blowOutCandle() {
         if (timer <= 0) {
             clearInterval(interval);
             document.getElementById('candle-flame').classList.add('hide');
-            btn.innerText = "HAPPY LAUNCH DAY! 🎉";
+            btn.innerText = "HAPPY BIRTHDAY! 🎉";
             setTimeout(() => { btn.classList.add('hide'); }, 2000);
         }
         timer--;
     }, 1000);
-}
-
-function openFullMsg(key) {
-    document.getElementById('modal-head').innerText = key.toUpperCase();
-    document.getElementById('modal-content').innerText = myTexts[key];
-    document.getElementById('full-overlay').classList.remove('hide');
-}
-
-function closeFullMsg() {
-    document.getElementById('full-overlay').classList.add('hide');
 }
 // WEBSITE 2 END
