@@ -23,7 +23,7 @@ const secsBox = document.getElementById('secs-box');
 // Format: "Month Day, Year Hour:Minute:Second"
 // Example: "Feb 2, 2026 00:00:00" (2 February 2026 midnight)
 // ======================================================
-const targetDate = new Date("Jan 2, 2026 00:00:00").getTime();
+const targetDate = new Date("Feb 2, 2026 00:00:00").getTime();
 // ======================================================
 
 // Countdown Timer - EASY TO CHANGE!
