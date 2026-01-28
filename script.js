@@ -189,12 +189,12 @@ function showFinalQuestion() {
             <button class="btn btn-yes" onclick="showReady()">Haan dekh lo</button>
             <button class="btn btn-no" onclick="showThirdNo()">Nahi</button>
         </div>`;
-    updateContent("Soch lo😚", buttons, 3);
+    updateContent("Soch lo", buttons, 3);
 }
 
 function showReady() {
     const buttons = `<button class="btn active" id="letsGoBtn">Let's Go! 🎉</button>`;
-    updateContent("Achaaaaa dekho ab😊", buttons, 4);
+    updateContent("Achaaaaa dekho ab", buttons, 4);
 }
 
 function showFirstNo() {
@@ -293,14 +293,13 @@ Thank you, adina.`,
 ‎You were the reason I cried, the reason I smiled, the reason I believed in love.
 ‎Maybe you’re no longer mine, but somewhere in the quiet corners of my heart,
 ‎you’ll always remain my greatest love story.. My fav story!!
-‎I loved you as much as i capable me dooor se itta pyar krta tha pass se to andaza ich nhi lga pate the but pass ane waise mahol ich nhi hua. Addu hamesha yaad rakho tumaku kabhi bhi meri help ki need hungi to meko jroor bolo me full help krtu!! Aur ha ab tumhari life ke jitne bhi ghante hai tum unku sukoon se khudki marzi se aur poore enjoyment ke sath guzaroooo i wish that ki vo ladka tumko mere se bhi jyada smjhe mere se jyada pyar kre mere se jyada care kre tumko princess bna kr rakhe🫶🏻agr unneh nhi kra to usko bolna ki mai kaisa tha fir unneh jroor krta!! Usko bolna ki editing seekh le kyuki mohtarma ku bohot alas ata editing krne me. Aur ha thoda khyal rakho khudka kam se kam cheeze expect kro kyuki aap jitna jyada expect kroge utna ich hurt hoge. Aur ha us ladke ke intensens per bhi ghaur krna me chahta hu tum safe hathon me raho. i know tum abhi bhi baat krri hungi ussey aur ye bohot achi baat hai ki itna sab huye baad bhi tum usko chorre nhibaise hi kabhi nakko choro🫂
-‎Meko chore shyd deserve krta tha usko nakko ab bas ab jyada explore mat kro aur khyal rakho khudka be safe ro mat kabhi bhi royi to kisi ko nhi chorunga..
+‎I loved you as much as i capable me dooor se itta pyar krta tha pass se to andaza ich nhi lga pate the but pass ane waise mahol ich nhi hua. Addu hamesha yaad rakho tumaku kabhi bhi meri help ki need hungi to meko jroor bolo me full help krtu!! Aur ha ab tumhari life ke jitne bhi ghante hai tum unku sukoon se khudki marzi se bitaoo jaise ki tumne bole akela rhna hai bolke to wahi kro aram se shadi kro aur khush raho meko tumahrasingle rhne ka faisla bohot pasand aya isme me poora sath dunga but haa agr meko malum hua ki aap firse jhooth bole meko to is baar me bohot gussa ho jatu😑. ab bas ab jyada explore mat kro aur khyal rakho khudka be safe ro mat kabhi bhi royi to kisi ko nhi chorunga..
 ‎aur yeap! ye mere kuch last messeges the abhi milenge inshaallah kabhi aur kahi aur kisi aur rishte se🫶🏻`,
     
     bye: `Bye bye Adina....
 ‎Life ke is turn per, mai sirf shukriya ich bolna chahtu.
 ‎Shukriya us kal ke liye jab ham sath the nibhare the sab bolre the long distance nhi chalta fir bhi nibhare the to shukriya..!! Aur also shukriya vo lesson ka jo meko mila. Maine hamesha itne door reh kr jo ho skta tha jaise ho skta poori koshish krke tumku vo sab dene ki koshish ki jo aik pyari si princess deserve krti thi.. Be-inteha khayal, izzat, aur ankh band krke bhrosa. Tumne always ka promise kiya tha but ab to promises ki value nhi rahi.
-‎Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. Loyalty us very expencive kuch log life me aik baar hi milte hai aur unka sath hona ich apne aap me aik inam rhtaa.  shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha.
+‎Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. Loyalty is very expencive kuch log life me aik baar hi milte hai aur unka sath hona ich apne aap me aik inam rhtaa.  shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha.
 ‎A last messege to you...
 ‎'If you ever miss me, Just remember i'm as far away as you pushed me✨'
 ‎God bye Adina khush raho kyuki me hamesha se yahi chahta tha. Alvida.`
