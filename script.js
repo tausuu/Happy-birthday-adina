@@ -269,56 +269,39 @@ function startVirtualParty() {
 
 // WEBSITE 2 START
 const myTexts = {
-    thanks: `Thank you for making me a perfect man, tum hi bolti thi ki main perfect hoon.
-Thank you mujhe ye ehsaas dilane ke liye ki khubsurat ladkiyon ko bhi mujh par crush ho sakta hai, aur wo tum thi.
-Thank you adina meri zindagi ke 1 saal 6 mahine aur 7 din ko meri life ke sabse khoobsurat din banane ke liye. Ye sab likhte hue mere aansu bas ruke hue hain, kisi tarah.
-Thank you mujhe maggie banana sikhane ke liye. Meri life ki pehli dish, wo kaise bhool sakta hoon.
-Thank you mujhe ye batane ke liye ki mere ghar ke bahar ki duniya bina namak ki chai peeti hai.
-Mujhe chai banana tumne sikhaya.
-Thank you mujhe ye samjhane ke liye ki ladke bhi ro sakte hain.
-Thank you meri har galti ko nazar andaaz karne ke liye.
-Thank you meri har baat bina wajah sune jaane ke liye.
-Thank you mere har faisle par saath dene ke liye.
-Thank you mujhe ye sikhane ke liye ki khud ke haq mein bolna bado ki be-adabi nahi hota.
-Thank you mujhe samjhane ke liye ki ladkon ko color differences samajh nahi aate.
-Thank you mujhe life ka ek goal dene ke liye.
-Adina Thank you kyuki when ever i feel bad when ever i was sad when ever i was low you gave me the smile you game that enrgy you gave me reason to not be sad. meri body jk nurvoise system hai vo kisi kaam ka nhi hai meri emotional system to tum the baby. tumahra vo pyara sa gussa tumari vo jabardasti ka haq jtana tumahra vo "Tauseef apku malum aaj kya hua" bolna hayeee mera to yahi nostalgia rhne wala hai future me. you make me feel confident you make me feel secure you make me feel like a man you gave me the power to conquer all over my bloodline i was proud gf and husban and shoahr.
-Tumhare baad, ab main apni future beti ko princess treatment dene ke to ho gya hoon. but me jk tumahre sath kra uske baad himmat ich nhi hori ki me khudkl aik beti ka baap bol saku i'm really sorry addu.
-
-Thank you, adina.`,
+    thanks: `Happy Birthday Adina!!!! 🎂✨
+‎​Happy birthday to my favorite human being on this earth! 🌍
+‎​Mujhe bohot khushi ho rahi hai ki aaj tum poore 17 saal ki ho gayi ho. Matlab poore 149,016 ghante! Isliye bohot bohot mubarakbaad. 🎉
+‎​Agar main in ghanton ko dekhoon, toh tumhara bachpan kitna pyara tha... nani ke ghar cousins ke saath masti, ghar ko water park bana dena, aur wo bade se ghar mein apna chota sa ghar banana. Kitni masoom thi tum. 🥹
+‎​Phir school ki wo yaadein, doston ke saath padhai se zyada masti karna, teachers ko tang karna aur lunch time mein bas ghoomna. Tum hamesha se hi sabse alag aur cute rahi ho.
+‎​Meri nazar mein tum meri ex nahi ho, na hi koi dushman. Tum wo princess ho jise maine apne dil ke ek-ek hisse se chaha tha. Tum meri zindagi ki sabse khoobsurat memory ho. Tumne mujhe sikhaya ki mohabbat mehsoos kaise hoti hai. Tum meri sabse favorite 'Story' ho aur hamesha rahogi. 📖❤️
+‎​Ab tumhari life ke jitne bhi ghante bache hain, unhe sukoon se, apni marzi se aur poori enjoyment ke saath guzarna. Main dua karta hoon ki tumhari shaadi jise bhi ho, wo tumse mujhse bhi zyada pyar kare, tumhare nakhre uthaye aur tumhara bohot khyal rakhe.
+‎​Bas apna dhyan rakhna, logon se ummeedein thodi kam rakhna taaki dil na dukhe. Tum hamesha safe raho aur khush raho, bas yahi meri dua hai.
+‎​Happy Birthday Adina... hamesha muskurati rehna! 🎈✨`,
     
-    msg: `Happy Birthday Adina!!!!
-‎    Happy birthday to my fav human being on the earth!!
-‎Meko bohot khushi ho rhi hai ki aaj tum poore 17 ke ho gyiii.. Mtlb ke poore 149,016 ghante ki so congratesss🎉
-‎
-‎Aur ye ghnato ke 3 hisse kro to in ghanto ke start me 
-‎tum bohot cute harkate kri jaise ki tumahra bachpan vo nani ke ghr pe cousins ke masti krna🥹. Ghr ku water park banna hai. Apne bade se ghr me khudka chota sa ghar banna and bohot kuch pyare pyare harkate.. 
-‎
-‎Fir uske doosre hisse me tumne schoollll me bohot mastiyaa kre freinds ke sath jaise ki padhai na krke sare makka krna techer ku dam krna aur lunch time me bas ghoomna cute cute cheeza recreate krnaa...!!! 
-‎
-‎fir third hisse me tum ne aik ladke ku bohot pyar diye meko bohot pyar diye aur ye pyaar ke wjah se me itta attach ho gya tha. I loved you as much as i capable me dooor se itta pyar krta tha pass se to andaza ich nhi lga pate the but pass ane waise mahol ich nhi hua. 
-‎meri nazar me tum meri ex nhi ho meri enemy bhi nhi ho mera past bhi nhi ho tum vo ho jisku aik time per maine meri princess bnaya tha aik tum ich hai vo jisku mai mere heart ke aik aik single part se pyaar kra tha aur you are the best memory of my life you taught me what love feels like..
-‎You were the reason I cried, the reason I smiled, the reason I believed in love.
-‎Maybe you’re no longer mine, but somewhere in the quiet corners of my heart,
-‎you’ll always remain my greatest love story.. My fav story!!
-
-Me bohot excited the tumahre ye birthday ke liye bohot jyada itna ki me 4 maheene pehle se ye website bnane ki plannig krra tha ki ye kaisi dikhegi kya kya cheeza add krna hai kya colors dene hai konse fonts use krne hai meko bohot sare ideas aye the me isme games wgaira bhi dalra but socha ye website bas wish krne ku hai game centre nhi😂.. me ye soch kr bna raha tha ki meri begum ku ye dikhaya unneh itti khush ho jati na kasam se me ye website bna raha tha ye soch kr ki maan jati meri begum but ab unneh meri begum ich nhi hai. me sach me bohot excited tha malum me tumahra birthday bohot ache se mnana sochra tha socha tha abdullah ko baat krke surprise plan krunga nanded aunga raat ku 12 bje rocket blast kraunga but sab kuch Aik stupid si wjah se cancel ho gya. Wahi vo ladka aur ye sab jo ho gya hamare beech. Socho ye website ka code krte huye me aik time pe bohot khush bhi tha aur fir aisa bhi time aya ki bohot jyada rora bhi tha aur code krra tha. But sare jatan krne ke baad finally ye ban gyi. To meri ye sari mehnat ku thoda serious lo please😭🙏🏻.. 
-‎Aur ha happy birthdayyyyyyyyyyy adinaaaaaaaa...!!! 
-‎
-‎Ab tumhari life ke jitne bhi ghante hai tum unku sukoon se khudki marzi se aur poore enjoyment ke sath guzaroooo.
-‎I wish ki tumahri shadi jissey bhi ho vo tumko mere se jyada pyar kre khyal rakhe aur nakhre uthaye. Aur ha thoda khyal rakho khudka kam se kam cheeze expect kro kyuki aap jitna jyada expect kroge utna ich hurt hoge. Aur ha kisi per bhrosa asani se mat me tum safe hathon me raho me ab safe nhi hu tumahre liye mere se bhi door raho. Tumko malum me kitna poosesive jealse aur  gussel insaan hu isiliye mere se sab cheeze ho gyi ha vo glt thi aur i'm sorry for that. Adina me chahta tha ki tumari izzat kahi per bhi kam na ho tumahre ghr ki na jaye me jab tak tha tab tak me tumahri izzat ko apne hatho me safe rakha but jab tum doosre hathon me gyi me dar gya me dar gya ki meri us choti si jaan ka kya hoga jisko me itni care se pyar se rakha isliye me tumko ussey breakup krane lgaya me bohot hurt ho gya in dino mera dil abhi bhi andar se jalra aur ye sach hai meko har waqt pain hota jab bhi sunneh ata ki meri adina meko jhooth bole tum meko cheat kre tum meri jaan meri begum!! Daneen ki maa meko cheat kri. Me shyd nhi deserve krta pyar meko koi bhi vo pyar hi nhi diya jo me expect? 
-‎Me hamesha koshish kra ki tumko kisi bhi trah hurt na kru aur shyd kabhi kabhi glti se kr bhi to bohot mafiya manga bohot mnaya me har treeke se pyar kra jitne bhi types ka pyar ye duniya me exist krta waise mnaya tumko jo nhi pasand tha vo me kabhi nhi kra tumne jo mna kre vo me nhi kra fir vo sab efforts ke baad ye meri jaan? Y itne sare ansu itne sare pain aur bas? i'm sorry adina if i ever made you cry i'm sorry agr me kabhi bhi hurt kra i'm sorry me glt cheez ke liye force kra i'm sorry for those things jo me kuch time se krra hu. 
-‎🤦🏻me bhi pagal kya battan krru i'm so sorry 
-‎Happy birthday adina happy birthdayyyyy.........`,
+    msg: `Thank you Adina, mujhe ek 'Perfect Man' banane ke liye (tum hi bolti thi na ki main perfect hoon). Thank you mujhe ye ehsaas dilane ke liye ki tum jaisi khoobsurat ladki ko bhi mujh par crush ho sakta hai. 1 saal, 6 mahine aur 7 din... meri life ke sabse haseen din banane ke liye shukriya. (Ye likhte huye mere aansu bas ruke huye hain, kaise bhi karke... ✨)
+‎​Thank you mujhe Maggie banana sikhane ke liye—meri life ki pehli dish, kaise bhool sakta hoon? Thank you mujhe ye batane ke liye ki mere ghar ke bahar baki duniya bina namak ki chai peeti hai, mujhe chai banana tumne sikhaya. Thank you mujhe ye samjhane ke liye ki ladke bhi ro sakte hain.
+‎​Meri har fizool baat sunne ke liye, meri galti ko nazar-andaaz karne ke liye, aur mujhe life ka ek 'Goal' dene ke liye shukriya. Aaj main tumhari wajah se tayar hoon ki apni future daughter ko 'Princess Treatment' kaise dete hain, tumhare sath meri practice ho gayi. Thank you for everything, Adina.`,
     
-    bye: `Bye bye Adina....
-‎Life ke is turn per, mai sirf shukriya ich bolna chahtu.
-‎Shukriya us kal ke liye jab ham sath the nibhare the sab bolre the long distance nhi chalta fir bhi nibhare the to shukriya..!! Aur also shukriya vo lesson ka jo meko mila. Maine hamesha itne door reh kr jo ho skta tha jaise ho skta poori koshish krke tumku vo sab dene ki koshish ki jo aik pyari si princess deserve krti thi.. Be-inteha khayal, izzat, aur ankh band krke bhrosa. Tumne always ka promise kiya tha but ab to promises ki value nhi rahi.
-‎Aaj jab mai peeche hat raha hoon, toh dil mein koi burden aur shikayat leker nhi jara, Bas aik sukoon hai ki maine jo bhi promises the vo poore kre aur mere sare farz' poori inamdari se nibhaye maine proove kiya ki me loyal tha hamesha se aur bas isi baat ka sukoon hai. kuch loh life me aik baar hi milte hai aur unka sath hona ich apne aap me aik inam rhtaa. shyad mera bhi charecter tumhari life me yahi tha aur yahi tak tha.
-‎A last messege to you...
-‎'If you ever miss me, Just remember i'm as far away as you pushed me✨'
-So 2 Feb is now on calender to ab se me kabhi bhi tumahri life me interfair nhi krunga i mean md dikhunga hi nhi ye website close hogi ussey pehle hi me jaa chuka hu aur ab kabhi bhi me tumko tang nhi krimga rulaunga nhi aur preshan nhi krunga 
-God bye Adina khush raho kyuki me hamesha se yahi chahta tha. Alvida.`
+    bye: `‎Bye bye Adina...
+‎​life ke ye turn me liye me ready nhi tha , mai tumahre sukoon dena chahta hoon. Maine hamesha koshish ki ki tumhe kabhi hurt na karoon, har tarah se manaya, par shayad mere efforts kam pad gaye. Adina, maine hamesha tumhari izzat ko apne hathon mein mehfooz rakha, par jab tumne rasta badla, main darr gaya tha ki meri us choti si jaan ka kya hoga jise maine itni care se rakha tha.
+‎​Lekin jab maine tumhe kisi aur ko 'Kissing Voicenotes' bhejte suna... main andar se mar gaya tha. Mera dil abhi bhi andar se jal raha hai. Mujhe har waqt pain hota hai ye soch kar ki tumne mujhe jhoot bola, mujhe cheat kiya. Kya meri aankhen green nahi thi, isliye mujhe itni badi saza mili? Main tumhare har bure waqt mein sath khada raha, phir mere gussa hone par tum kisi aur ki kaise ho gayi?
+‎​Maine kabhi kisi ladki se baat nahi ki kyunki tumhe bura lagta tha, phir tumne ye sab mere sath kyun kiya? I’m sorry agar maine kabhi tumhe rulaya ho, par main ek insaan hoon, koi patthar nahi.
+‎​Aaj main peeche hat raha hoon. Maine apne saare vaade poore kiye aur wafa nibhayi. Ab tumhari life mein koi tumhe gaali nahi dega, koi tumhare character par ungli nahi uthayega, kyunki maine sab apne sar le liya hai. Sabko lagne do main hi galat hoon, meri Adina sahi rehni chahiye.
+‎Finally, I accepted it... we can't be together.
+‎We never truly understood each other.
+‎Thank you for everything... for teaching me what love feels like, and what pain feels like too.
+‎Waht true happiness feels like.
+‎I hope my distance brings you peace.
+‎I hope you find your freedom. So I'm stepping back now.
+‎Our future plans failed, but I tried...
+‎I really tried.
+‎my chapter ends here, yet I still wish for your happiest days. your absent hurt me more than your present ever did...
+‎but I'll survive it I'll learn to live with the silent you give.
+‎Thank you
+‎​A Last Message to you:
+‎'If you ever miss me, just remember I’m as far away as you pushed me. ✨'
+‎​Khush raho addu kyuki me hamesha se yahi chahta tha. Alvida Adina.`
 };
 
 // Message cards functionality
