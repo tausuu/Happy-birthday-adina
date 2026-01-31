@@ -271,6 +271,7 @@ function startVirtualParty() {
 const myTexts = {
     thanks: `Happy Birthday Adina!!!! 🎂✨
 ‎​Happy birthday to my favorite human being on this earth! 🌍
+Mai bohot excited tha malum tumahre ye birthday ke liye i was like(😆) meri adina ka birthday ara ab unneh ab aisa celebrate krtu ki unneh mujhse gussareh ich nhi skti 2 maheene pehle ku baat hai ye tum gussathi jab me tumaku idhar ldaikrru tha udhar chupke se ye website ready krru tha bohot mehnat krke poore efforts lga kr banaya me ye aur at end bohot kuch bura hua jissey ku disturb ho gya ye bnane me tum socho me bohot excited hokwr bhi ye bmara tha aur aik time per ankho me ansu the tab bhi ye bnara tha..
 ‎​Mujhe bohot khushi ho rahi hai ki aaj tum poore 17 saal ki ho gayi ho. Matlab poore 149,016 ghante! Isliye bohot bohot mubarakbaad. 🎉
 ‎​Agar main in ghanton ko dekhoon, toh tumhara bachpan kitna pyara tha... nani ke ghar cousins ke saath masti, ghar ko water park bana dena, aur wo bade se ghar mein apna chota sa ghar banana. Kitni masoom thi tum. 🥹
 ‎​Phir school ki wo yaadein, doston ke saath padhai se zyada masti karna, teachers ko tang karna aur lunch time mein bas ghoomna. Tum hamesha se hi sabse alag aur cute rahi ho.
